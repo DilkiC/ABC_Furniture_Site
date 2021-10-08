@@ -20,6 +20,7 @@
 </head>
 <body>
 
+<!--header 1...........................................................................-->
 <header id="head1" class="head">
     <img src="assets/images/logo.png" class="logo">
     <ul>
@@ -29,7 +30,8 @@
     </ul>
 </header>
 
-<header id="head2" class="head">
+<!--header 2...........................................................................-->
+<!--<header id="head2" class="head">
     <ul>
         <li><a href="#" id="proBtn">Products</a></li>
         <li><a href="#" id="livBtn">Living Room</a></li>
@@ -39,30 +41,71 @@
         <li><a href="#" >Plastic Products</a></li>
         <li><a href="#" >Office Furniture</a></li>
     </ul>
+</header>-->
 
+<div id="container">
 
+    <nav>
+        <div id="logo">ABC Furniture</div>
+        <ul>
+            <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="#">Products &nbsp;<i class="fa fa-caret-down"></i></a>
+                <div class="dd">
+                    <div id="up_arrow"></div>
+                    <ul>
 
-</header>
+                        <li><a href="#">2019</a></li>
+                        <li><a href="#">2018</a></li>
+                        <li><a href="#">2017</a></li>
+                    </ul>
+                </div>
+            </li>
 
+            <li class="dropdown"><a href="#">Living Room &nbsp;<i class="fa fa-caret-down"></i> </a>
+                <div class="dd">
+                    <div id="u_a_c"><div ></div></div>
+                    <ul>
+
+                        <li><a href="#">DOCS</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">PROJECTS</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Bedroom</a></li>
+            <li><a href="#">Dining</a></li>
+            <li><a href="#">Office Furniture</a></li>
+            <li><a href="#">Plastic Products</a></li>
+
+        </ul>
+    </nav>
+</div>
+
+<!--home...........................................................................-->
 <div id="homeContent" class="content">
-<!--<h1 class="title">home</h1>-->
     <div id="homeimg">
         <img src="assets/images/istockphoto-1251694108-170667a.jpg" width="100%" height="100%">
+    </div>
+</div>
 
+<!--about...........................................................................-->
+<div id="aboutContent" class="content">
+    <div class="ab-sub-div1"><img src="assets/images/overview.jpg" width="100%" height="100%"></div>
+    <div class="ab-sub-div2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dicta eum, expedita id molestiae nesciunt, nobis quibusdam, sed suscipit tempore velit vero. Fugit impedit minima molestiae numquam quasi ratione sapiente?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci debitis earum enim facere, facilis in labore, laborum magni mollitia nisi officiis perferendis quae quod rem sed sunt vel vero!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae corporis delectus eius est eum expedita, illum, neque qui quidem repellendus ut veniam veritatis! Asperiores cumque earum impedit odit rerum sit.</p>
     </div>
 
 
 </div>
 
-<div id="aboutContent" class="content">
-    <h1 class="title">about</h1>
-
-</div>
+<!--contact...........................................................................-->
 <div id="contactContent" class="content">
-    <h1 class="title">contact</h1>
+    <div class="mainContent"></div>
 
 </div>
 
+<!--footer...........................................................................-->
 <footer id="footer">
     <!--<div class="mainDiv">
         <img src="assets/images/phoneIcon.jpg" width="50%" height="90%">
