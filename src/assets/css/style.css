@@ -1,0 +1,124 @@
+/*
+ *
+ *  * ................................................................
+ *  *  Copyright (c) GDSE-55.year. All rights received.
+ *  *  License under Sri Lankan informations.
+ *  * .......................................................................
+ *  *
+ *
+ */
+
+/*header 1..................................*/
+#head1{
+    height: 10vh;
+    background-color: #bfbfb8;
+    /*display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+*/
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.head>ul{
+    position: absolute;
+    right:24px;
+    top: 0px;
+    list-style: none;
+    font-size: 20px;
+}
+#head1>ul>li {
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+#head1>ul>li>a{
+    color: black;
+    font-size: 15px;
+}
+
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+
+/*header 2...............................*/
+#head2{
+    position: absolute;
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+    //overflow: hidden;
+}
+#head2>ul>li {
+    display: inline-block;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+
+#head2>ul>li>a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/*main...............................*/
+.content{
+
+    width: 100%;
+    height: 75vh;
+    background-color: white;
+}
+.title{
+    position: absolute;
+    padding: 20px;
+}
+/*home.................................*/
+#homeimg{
+    position: absolute;
+    top: 20vh;
+    left: 15vw;
+    width: 70%;
+    height: 62%;
+    //border: 1px solid rebeccapurple;
+
+
+}
+
+
+
+/*footer................................*/
+#footer{
+    width: 100%;
+    height: 15vh;
+    background-color: #242b2d;
+    display: flex;
+   flex-direction: row;
+   //justify-content: center;
+   align-items: center;
+   //position: absolute;
+}
+.mainDiv{
+    width: 20%;
+    height: 40%;
+    //border: 1px solid red;
+    position: relative;
+    left: 250px;
+    color: white;
+}
