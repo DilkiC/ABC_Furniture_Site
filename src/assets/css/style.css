@@ -374,6 +374,61 @@ a {
     //border: 1px solid red;
 }
 
+/*pro-info-page-A bed......................................................*/
+.pro-info-main{
+    width: 70%;
+    height: 80%;
+    //border: 1px solid red;
+    position: relative;
+    left: 200px;
+    top:68px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.pro-info-row1{
+    width: 100%;
+    height: 70%;
+    //border: 1px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+.pro-info-row2{
+    width: 100%;
+    height: 30%;
+    //border: 1px solid red;
+}
+.pro-info-row11{
+    width: 10%;
+    height: 100%;
+    //border: 1px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.pro-info-row12{
+    width: 40%;
+    height: 100%;
+    //border: 1px solid red;
+
+}
+.pro-info-row13{
+    width: 50%;
+    height: 100%;
+    //border: 1px solid red;
+
+}
+.pro-info-row11-col{
+    width: 100%;
+    height: 25%;
+    //border: 1px solid red;
+}
+.desch6{
+    margin: 0;
+}
 
 
 
