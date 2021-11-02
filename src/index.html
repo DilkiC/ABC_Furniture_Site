@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <meta content="width=device-width initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -37,19 +38,19 @@
     <nav>
         <div id="logo">ABC Furniture</div>
         <ul>
-            <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="#">Products &nbsp;<i class="fa fa-caret-down"></i></a>
+            <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="#" class="nav2">Products &nbsp;<i class="fa fa-caret-down"></i></a>
                 <div class="dd">
                     <div id="up_arrow"></div>
                     <ul>
-                        <li><a href="#" id="pro-display-btn">Beds</a></li>
-                        <li><a href="#">Tables</a></li>
-                        <li><a href="#">Steel Furniture</a></li>
-                        <li><a href="#">Dressing Table</a></li>
+                        <li><a href="#" id="pro-display-btn" class="pro-sub">Beds</a></li>
+                        <li><a href="#" class="pro-sub">Tables</a></li>
+                        <li><a href="#" class="pro-sub">Steel Furniture</a></li>
+                        <li><a href="#" class="pro-sub">Dressing Table</a></li>
                     </ul>
                 </div>
             </li>
 
-            <li class="dropdown"><a href="#">Living Room &nbsp;<i class="fa fa-caret-down"></i> </a>
+            <li class="dropdown"><a href="#" class="nav2">Living Room &nbsp<i class="fa fa-caret-down"></i> </a>
                 <div class="dd">
                     <div id="u_a_c"><div ></div></div>
                     <ul>
@@ -60,13 +61,27 @@
                     </ul>
                 </div>
             </li>
-            <li><a href="#">Bedroom</a></li>
-            <li><a href="#">Dining</a></li>
-            <li><a href="#">Office Furniture</a></li>
+            <li><a href="#" class="nav2">Bedroom &nbsp<i class="fa fa-caret-down"></i></a></li>
+            <li><a href="#" class="nav2">Dining &nbsp<i class="fa fa-caret-down"></i></a></li>
+            <!--<li id="off"><a href="#" class="nav2">Office Furniture</a></li>-->
             <!--<li><a href="#">Plastic Products</a></li>-->
 
         </ul>
     </nav>
+    <!--hamberg nav list.............................................-->
+    <!--<div class="topnav">
+        <a href="#home" class="active">ABC Furniture</a>
+        &lt;!&ndash; Navigation links (hidden by default) &ndash;&gt;
+        <div id="myLinks">
+            <a href="#news" onmouseover="hover(this);" onmouseout="out(this);"><a href="#" class="nav2">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+        &lt;!&ndash; "Hamburger menu" / "Bar icon" to toggle the navigation links &ndash;&gt;
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>-->
 </div>
 
 <!--home...........................................................................-->
@@ -78,7 +93,7 @@
 
 <!--about...........................................................................-->
 <div id="aboutContent" class="content">
-    <div class="ab-sub-div1"><img src="assets/images/overview.jpg" width="100%" height="100%"></div>
+    <div class="ab-sub-div1"><img src="assets/images/Beds/bed5.jpg" width="100%" height="100%"></div>
     <div class="ab-sub-div2">
         <p class="pfont">ABC Furniture is among the world’s largest furniture manufacturers offering a diverse range of modern and traditional furniture.
             Since ABC Furniture was established in 1986 it has achieved a rapid success and has expanded to over 241 showrooms globally.ABC Furniture’s success has grown from it’s ability to produce high quality furniture at affordable prices
@@ -87,7 +102,7 @@
             <p class="pfont">Please use the ‘Store Locator’ to find your nearest ABC Furniture showroom.
             For further enquires please contact or visit any ABC Furniture showroom where our friendly staff will gladly assist you.</p>
 
-            <h5>CUSTOMER CARE</h5>
+            <h5 id="cust">CUSTOMER CARE</h5>
         <h5 class="desch6">033 4 678 678</h5>
 
             <h5 class="desch6">customercare@abc.lk</h5>
@@ -222,11 +237,11 @@
                 <h5 class="pro-price">KBFL 007 / 78″ x 60″    Rs. 88,875</h5>
 
                 <h5 class="pro-price">KBFL 008 / 78″ x 72″    Rs. 100,175</h5>
-                <p>Turn the unused space underneath your bed to a spacious storage while enjoying the aesthetics of the design. Precisely planned structure will ensure noise free peacefulness whereas the storage compartments will promise you a clutter free arrangement.</p>
+                <p class="para">Turn the unused space underneath your bed to a spacious storage while enjoying the aesthetics of the design. Precisely planned structure will ensure noise free peacefulness whereas the storage compartments will promise you a clutter free arrangement.</p>
             </div>
         </div>
         <div class="pro-info-row2">
-            <h5 class="pro-price">Warranty</h5>
+            <h5 class="pro-price" id="war">Warranty</h5>
             <p class="desch6">* 15 Year Warranty for bed</p>
             <p class="desch6">* 1 Year Warranty for bed mechanism</p>
             <p class="desch6">* Warranty Covers Only Manufacturing Defects.</p>
@@ -258,6 +273,16 @@
 
 
 <script src="assets/jquery-3.6.0.min.js"></script>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
 <script src="assets/js/Dashboard.js"></script>
 
 </body>
